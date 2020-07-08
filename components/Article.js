@@ -85,6 +85,21 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: 'Why I Am the Best at Everything (and you are not)',
+    date: 'July 8th, 2020',
+    firstParagraph: `Isn't that fantastic? You can just push a little tree out of your brush like that. Everything's not great in life, but we can 
+          still find beauty in it. A beautiful little sunset. It just happens - whether or not you worried about it or tried to plan it. 
+          It's beautiful - and we haven't even done anything to it yet. Now let's put some happy little clouds in here. `,
+
+    secondParagraph: `A fan brush can be your best friend. Let's give him a friend too. Everybody needs a friend. The shadows are just like the 
+          highlights, but we're going in the opposite direction. Let's go up in here, and start having some fun Now it's beginning to make a 
+          little sense.`,
+
+    thirdParagraph: `This is the time to get out all your frustrations, much better than kicking the dog around the house or taking it out on your 
+          spouse. Put light against light - you have nothing. Put dark against dark - you have nothing. It's the contrast of light and dark that each 
+          give the other one meaning. We want to use a lot pressure while using no pressure at all.`
   }
 ];
 
