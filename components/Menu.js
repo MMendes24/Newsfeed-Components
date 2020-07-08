@@ -49,10 +49,8 @@ function menuMaker(array){
   menuButton.addEventListener('click', () => {
   menuDiv.classList.toggle('menu--open')
   const animation = gsap.timeline()
-  animation.from(".menu", 1.5, {left: -400})
-  document.addEventListener('click', () => {
-    animation.reverse;
-  })
+  animation.from('.menu', 1.5, {left: -400})
+  document.querySelector('.article').onclick = () => animation.reverse();
 });
 
 console.log(menuDiv)
