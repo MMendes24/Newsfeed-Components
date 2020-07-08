@@ -48,7 +48,13 @@ function menuMaker(array){
 
   menuButton.addEventListener('click', () => {
   menuDiv.classList.toggle('menu--open')
+  const animation = gsap.timeline()
+  animation.from(".menu", 1.5, {left: -400})
+  document.addEventListener('click', () => {
+    animation.reverse;
+  })
 });
+
 console.log(menuDiv)
 return menuDiv
 }
@@ -57,3 +63,7 @@ const header = document.querySelector('.header')
 
 header.appendChild(menuMaker(menuItems))
 
+// const gsapTest = document.querySelector('.menu')
+// gsapTest.addEventListener('click', () => {
+//   gsap.to(".menu", {duration: 1, x: 100})
+// })
